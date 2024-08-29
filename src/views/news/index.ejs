@@ -1,0 +1,222 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etec News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+          
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            margin: 20px 0;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+      
+      h3{
+        color: #d32f2f;
+          text-align:left;
+      }
+
+        section h2 {
+            background-color: #fbc02d;
+            color: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #555;
+            text-align: justify;
+        }
+
+        .noticias {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+
+        article {
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+            max-width: 50%; /* Ajusta a largura do artigo para 50% da largura do contêiner */
+            margin: auto; /* Centraliza o artigo horizontalmente */
+        }
+
+        article:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        article img {
+            width: 100%; /* Imagem ocupa toda a largura do artigo */
+            height: auto;
+            border-radius: 8px;
+        }
+
+        article h3 {
+            margin-top: 10px;
+            color: #d32f2f;
+        }
+
+        footer {
+            background-color: #d32f2f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .wifi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wifi img {
+            width: 100%; /* Imagem ocupa toda a largura do contêiner pai */
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Etec News</h1>
+            <nav>
+                <ul>
+                    <li><a href="#opiniao">G1 Etec</a></li>
+                    <li><a href="#noticia">Notícias</a></li>
+                    <li><a href="#esportes">Esportes</a></li>
+                    <li><a href="#educacao">Educação</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="opiniao">
+            <h2>G1 etec</h2>
+          <h3>Estudantes reclamam de más condições de higiene nos banheiros</h3>
+            <p>Alunos da ETEC Antônio Furlan têm expressado insatisfação com as condições de higiene dos banheiros da instituição. De acordo com relatos, os banheiros frequentemente estão sujos e com um odor desagradável de urina, o que tem causado desconforto entre os estudantes.
+"É impossível usar os banheiros sem sentir aquele cheiro forte de xixi. A situação está insustentável", comentou um dos alunos, que preferiu não se identificar.</p>
+            <div class="opiniao">
+                <article>
+                    <img src="https://www.desentupidora.srv.br/wp-content/uploads/2017/10/mau-cheiro-de-esgoto-848x480.jpg">
+                  <p>Mulher limpando o banheiro que esta com odor desagradável</p>
+                </article>
+            </div>
+          
+          <p>Os estudantes apontam que a falta de limpeza adequada é um problema recorrente, o que levanta questionamentos sobre a eficiência dos serviços de manutenção e limpeza da escola. "As tias da limpeza não estão fazendo o trabalho delas direito. A gente já reclamou várias vezes, mas nada muda", afirmou outro estudante.A situação tem gerado um movimento entre os alunos para solicitar melhorias urgentes, com reivindicações para que a escola adote medidas mais rigorosas em relação à limpeza. "Nós passamos muitas horas aqui, precisamos de um ambiente limpo e higiênico para estudar", concluiu um dos estudantes. A direção da ETEC Antônio Furlan foi procurada, mas até o fechamento desta edição não havia se pronunciado sobre o assunto.
+        </section>
+
+        <section id="noticia">
+            <h2>Notícias</h2>
+           <h3>Queda na rede Wi-Fi afeta aulas na ETEC Antônio Furlan</h3>
+            <p>Nesta segunda-feira (26), os alunos do curso de Desenvolvimento de Sistemas da ETEC Antônio Furlan enfrentaram dificuldades para assistir às aulas devido a uma queda severa na rede Wi-Fi da escola. O problema, segundo fontes, teve início na sexta-feira (23), após uma oscilação de energia no bairro, que também afetou a conexão da instituição.</p>
+            <div class="noticia">
+                <article>
+                    <div class="wifi">
+                        <img src="https://images.prismic.io/portal-de-planos/Sem-conexao-de-internet-1.jpg" alt="Imagem de lazer">
+                    </div>
+                    <p>Internet fora do ar chegou a prejudicar alunos!</p>
+                </article>
+            </div>
+          <p>Moradores da região relataram que a queda de energia causou instabilidade na rede elétrica, o que impactou o funcionamento do Wi-Fi na escola. Até o momento, a falha na conexão persiste, sem previsão de resolução.
+
+Alunos expressaram frustração com a falta de comunicação prévia da instituição. "Poderiam ter nos avisado antes", disse um estudante. Outro comentou: "Pensei em faltar, mas desisti", destacando a surpresa ao não receber informações sobre a situação antes de chegar à escola.
+
+Devido à continuidade do problema, a orientação atual é que os alunos assistam às aulas remotamente, na modalidade EAD, até que a situação seja normalizada. A administração da ETEC ainda não forneceu uma previsão de quando o serviço será restabelecido. </p>
+        </section>
+
+        <section id="esportes">
+            <h2>Esportes</h2>
+              <h3>Torneio Intercursos - 2º semestre - 2024</h3>
+            <p>O Grêmio Estudantil da ETEC Antônio Furlan anunciou que as inscrições para o Torneio Intercursos do 2º semestre de 2024 serão abertas na próxima segunda-feira, 2 de setembro.
+
+Todos os alunos matriculados na ETEC poderão se inscrever nas seguintes modalidades esportivas: futebol, vôlei, basquete, handebol, tênis de mesa e pebolim.
+
+Para participar, os interessados deverão preencher um formulário do Microsoft Forms, que será enviado pela organização do torneio via WhatsApp.</p>
+            <div class="noticias">
+                <article>
+                    <img src="https://ohtake.com.br/wp-content/uploads/2022/03/etec-esportes_079-1.jpg" alt="Imagem de esportes">
+                    <h3></h3>
+                    <p>Ginásio poliesportivo</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="educacao">
+            <h2>Educação</h2>
+          <h3>ETEC é TOP 100</h3>
+            <p>A ETEC Antônio Furlan alcançou uma importante conquista, sendo classificada entre as 100 melhores escolas públicas do estado de São Paulo no Índice de Desenvolvimento da Educação Básica (IDEB) de 2023.
+          </br>
+Este resultado reflete o compromisso contínuo da equipe pedagógica da instituição e o empenho dos alunos. O reconhecimento reforça a qualidade do ensino oferecido pela ETEC e destaca o esforço conjunto em prol da excelência educacional.</p>
+            <div class="noticias">
+                <article>
+                    <img src="https://static.wixstatic.com/media/e27e73_aa80bf982c614f6d8f2a9dcc6e896dcf~mv2.png/v1/fill/w_2401,h_1650,al_c,q_90/e27e73_aa80bf982c614f6d8f2a9dcc6e896dcf~mv2.webp" alt="Imagem de educação">
+    <p>Imagem da Etec Antônio Furlan</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Etec News. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
